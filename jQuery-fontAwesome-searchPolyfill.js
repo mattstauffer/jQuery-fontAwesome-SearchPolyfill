@@ -1,5 +1,6 @@
 /*!
  * jQuery fontAwesome-powered simple input[type="search"] polyfill
+ * https://github.com/jiolasa/jQuery-fontAwesome-SearchPolyfill
  * Original author: Matt Stauffer, github.com/jiolasa (@stauffermatt)
  * Plugin pattern by @addyosmani: https://github.com/addyosmani/jquery-plugin-patterns/
  */
