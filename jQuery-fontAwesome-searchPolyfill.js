@@ -1,12 +1,12 @@
 /*!
- * jQuery simple input[type="search"] polyfill
- * Original author: github.com/jiolasa (@stauffermatt)
+ * jQuery fontAwesome-powered simple input[type="search"] polyfill
+ * Original author: Matt Stauffer, github.com/jiolasa (@stauffermatt)
  * Plugin pattern by @addyosmani: https://github.com/addyosmani/jquery-plugin-patterns/
  */
 
 ;(function ( $, window, document, undefined ) {
 
-	var pluginName = 'SimpleSearchInputPolyfill',
+	var pluginName = 'fontAwesomeSearchPolyfill',
 		defaults = {
 			theme: 'none'
 		};
