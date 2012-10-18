@@ -10,6 +10,7 @@ Here's the CSS we're using:
 
 ```css
 .search-input-wrapper { 
+    display: inline-block;
     position: relative; 
 }  
 .search-input-wrapper i, .search-input-wrapper a {
@@ -17,7 +18,7 @@ Here's the CSS we're using:
     display: block;
     font-size: 1.2em;
     position: absolute;
-    top: -0.15em;
+    top: .05em;
     z-index: 100; 
 }
     .search-input-wrapper .icon-search {
