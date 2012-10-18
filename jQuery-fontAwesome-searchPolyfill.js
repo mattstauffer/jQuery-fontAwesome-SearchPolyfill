@@ -44,6 +44,7 @@
 		$cancel_button.on( 'click', function( e ) {
 			e.preventDefault();
 			$el.val('');
+			$el.trigger('change');
 			$cancel_button.hide();
 		});
 
