@@ -1,7 +1,7 @@
 /*!
  * jQuery fontAwesome-powered simple input[type="search"] polyfill
- * https://github.com/jiolasa/jQuery-fontAwesome-SearchPolyfill
- * Original author: Matt Stauffer, github.com/jiolasa (@stauffermatt)
+ * https://github.com/mattstauffer/jQuery-fontAwesome-SearchPolyfill
+ * Original author: Matt Stauffer, github.com/mattstauffer (@stauffermatt)
  * Plugin pattern by @addyosmani: https://github.com/addyosmani/jquery-plugin-patterns/
  */
 
@@ -30,7 +30,7 @@
 			$el = $(this.element);
 
 		// Totally bootleg: override default search styles
-		$("<style type='text/css'>input[type=\"search\"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; } input[type=\"search\"]::-webkit-search-decoration, input[type=\"search\"]::-webkit-search-cancel-button { -webkit-appearance: none; }</style>").appendTo("head");
+		$("<style type='text/css'>input[type=\"search\"] { -webkit-appearance: textfield; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } input[type=\"search\"]::-webkit-search-decoration, input[type=\"search\"]::-webkit-search-cancel-button { -webkit-appearance: none; }</style>").appendTo("head");
 
 		// Some theme ideas: Webkit, Google, Slight round, etc.
 		// @todo: Make this a sexier, more modular system
